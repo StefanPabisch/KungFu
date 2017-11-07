@@ -1,0 +1,21 @@
+{
+    "name": "pabisch/kungfu",
+    "description": "This is a movie database for the company JackyKhan",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Stefan Pabisch",
+            "email": "stefan.pabisch@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pabisch\\Kungfu\\": "src/"
+        }
+    },
+    "require": {
+        "https://github.com/Weissheiten/htl3r.kungfumovies.git": "1.0.*",
+        "https://github.com/endroid/QrCode.git": "1.0.*"
+    }
+}
